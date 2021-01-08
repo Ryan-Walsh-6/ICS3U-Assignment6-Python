@@ -23,10 +23,10 @@ def main():
     while True:
         try:
             base_edge_from_user = input("Enter the base edge of the hexagonal"
-                                        "prism (cm):")
+                                        " prism (cm):")
             base_edge_from_user = float(base_edge_from_user)
             height_from_user = input("Enter the height of the hexagonal"
-                                     "prism (cm):")
+                                     " prism (cm):")
             print("\n", end="")
             height_from_user = float(height_from_user)
             if base_edge_from_user < 0 or height_from_user < 0:
